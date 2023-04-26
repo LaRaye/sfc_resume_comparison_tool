@@ -1,0 +1,90 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat, arial, verdana;
+}
+
+html {
+    height: 100%;
+    /*Image only BG fallback*/
+
+    /*background = gradient + image pattern combo*/
+    background:
+        linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+body {
+    font-family: montserrat, arial, verdana;
+}
+
+/*form styles*/
+#sfc-resume-comparison-tool-form {
+    width: 400px;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+}
+
+#sfc-resume-comparison-tool-form fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*inputs*/
+#sfc-resume-comparison-tool-form input,
+#sfc-resume-comparison-tool-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*buttons*/
+#sfc-resume-comparison-tool-form .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#sfc-resume-comparison-tool-form .action-button:hover,
+#sfc-resume-comparison-tool-form .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+/*headings*/
+.title {
+    text-align: center;
+}
+
+#sfc-resume-comparison-tool-results {
+    text-align: center;
+}
+
+

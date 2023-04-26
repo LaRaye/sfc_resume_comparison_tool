@@ -473,3 +473,5 @@ function sfc_calculate_word_match_percentage($words1, $words2)
 
 
 
+
+

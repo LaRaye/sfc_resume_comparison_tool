@@ -1,0 +1,22 @@
+{
+    "name": "larayejohnson/sfc_resume_comparison_tool",
+    "description": "Tool that allows users to compare a resume file and a job description file to get the percentage match",
+    "type": "library",
+    "require": {
+        "smalot/pdfparser": "^2.4",
+        "phpoffice/phpword": "^1.0"
+    },
+    "license": "GPL-2.0-only",
+    "autoload": {
+        "psr-4": {
+            "Larayejohnson\\SfcResumeComparisonTool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LaRaye",
+            "email": "lnj2105@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
